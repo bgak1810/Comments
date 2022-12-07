@@ -1,0 +1,27 @@
+{
+  "name": "comments",
+  "version": "1.0.0",
+  "description": "configuration test with actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgak1810/Comments.git"
+  },
+  "keywords": [
+    "configurations"
+  ],
+  "author": "B Adarsh Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bgak1810/Comments/issues"
+  },
+  "homepage": "https://github.com/bgak1810/Comments#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1",
+    "axios": "^1.2.1"
+  }
+}
