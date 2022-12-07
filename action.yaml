@@ -1,0 +1,13 @@
+
+name: 'GitRepo Information'
+description: 'Provide Git information'
+inputs:
+  OrganizationName:  # id of input
+    description: 'Repo Owner Name'
+    required: true
+  RepositoryName: #id of input
+    description: 'Repository name'
+    required: true
+runs:
+  using: 'node16'
+  main: 'index.js'
