@@ -1,0 +1,17 @@
+name: PR metadata annotation
+
+on: 
+  pull_request:
+    types: [opened, reopened, synchronize]
+
+jobs:
+
+  annotate-pr:
+    runs-on: windows-latest
+    name: Annotates pull request with metadata
+    steps:
+      - name: Annotate PR
+        uses: link-/PR-metadata-action@main
+        with:
+          owner: ${{ github.repository_owner }}
+          repositoryname: ${{ github.event.repository.name }}
